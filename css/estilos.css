@@ -1,0 +1,162 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0% auto;
+}
+
+header {
+    position: relative;
+    height: 200px;
+    text-align: center;
+    border-bottom: 10px solid white;
+    background-color: rgb(236,103,26);
+    animation: fade-in 5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    line-height: 0px;
+    font-size: 50px;
+    color: #fff;
+    flex: 1;
+    text-align: center;
+}
+
+header div {
+    margin-left: auto;
+}
+
+header img {
+    height: 150px;
+}
+
+nav {
+    background: black;
+    height: 50px;
+    border-bottom: 5px solid #ffffff;
+    animation: fade-in 3s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    animation: fade-in 3s;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    animation: slide-in 3s;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+article {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #ffffff;
+    padding: 40px;
+    color: #000;
+    animation: fade-in 4s;
+}
+
+article:last-child{
+    margin: 0;
+}
+
+
+article hgroup {
+    margin-bottom: 20px;
+}
+
+article time {
+    display: block;
+    margin-bottom: 20px;
+}
+
+aside.imagen {
+    width: 500px;
+    min-height: 500px;
+    background: rgb(211, 119, 62);
+    padding: 30px;
+}
+
+aside.imagen2 {
+    width: 500px;
+    min-height: 500px;
+    background: rgb(211, 119, 62);
+    padding: 30px;
+}
+
+aside.imagen3 {
+    width: 500px;
+    min-height: 500px;
+    background: rgb(211, 119, 62);
+    padding: 30px;
+}
+
+footer {
+    background: #000000;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    animation: fade-in 2s;
+  }
+  
+  footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  footer a:hover {
+    color: rgb(211, 119, 62);
+  }
+  
+  footer p {
+    margin: 10px 0;
+  }
+  
+  footer .facebook-icon {
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
