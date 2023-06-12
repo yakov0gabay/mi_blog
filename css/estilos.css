@@ -99,7 +99,7 @@ article {
     padding: 40px;
     color: #000;
     animation: fade-in 4s;
-    text_align:justify;
+    text-align:justify;
 }
 
 article:last-child{
